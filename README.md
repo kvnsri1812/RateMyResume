@@ -1,0 +1,2 @@
+# RateMyResume
+It is a web application for checking the eligibility of the resume against                  the company requirements and helps users to improve their resume so that they can land in their dream companies. Users need to upload their resume and select the company(s) for which they want to check the eligibility. The eligibility percentage(s) will be displayed as bar graph. At last messages will be to help users to improve their resume. 
