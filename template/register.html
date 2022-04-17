@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 
+<style>
+.container {
+  position:center;
+  margin: auto;
+margin-top:50px;
+  max-width: 740px;
+  padding: 50px;
+  background-color:#F0F8FF;
+}
+</style>
+</head>
+<body style="background-color:#446689;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2><b>REGISTER</b></h2>
+<p>Please fill this form to create an account.</p>
+<form action="" method="post">
+<div class="form-group">
+<label><h5>Full Name</h5></label>
+<input type="text" name="name" class="form-control" required>
+</div> 
+<div class="form-group">
+<label><h5>Email Address</h5></label>
+<input type="email" name="username" class="form-control" required />
+</div> 
+<div class="form-group">
+<label><h5>Password</h5></label>
+<input type="password" name="password" class="form-control" required>
+</div>
+<div class="form-group">
+<input type="submit" name="submit" class="btn btn-primary" value="Submit">
+</div>
+
+<div class="container-fluid" style="min-height:100%">
+
+{% with messages = get_flashed_messages() %} 
+    {% if messages %} 
+      {% for message in messages %}
+      <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> 
+        {{message}}
+      </div>
+      {% endfor %} 
+    {% endif %} 
+  {% endwith %}
+</div>
+
+
+</form>
+<div>
+<form action ="/login">
+<label> Do you have an account? </label>
+<input value = "login" class="btn btn-primary" type ="submit"/>
+</form>
+</div>
+</div>
+</div>
+</div> 
+</body>
+</html>
