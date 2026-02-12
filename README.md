@@ -1,6 +1,6 @@
 # RATE MY RESUME USING ML & NLP
 
-> ***Upload a resume. Match it against company requirements. Get an eligibility score with insights.***
+> **Upload a resume. Match it against company requirements. Get an eligibility score with insights.**
 
 **Rate My Resume** is a web-based resume screening and scoring system that uses **Machine Learning + Natural Language Processing** concepts to compare an uploaded resume against **company requirement datasets** and generate an **eligibility percentage**, a **bar-graph visualization**, and an improvement message. 
 
@@ -198,7 +198,7 @@ Example validations included:
 * Mancheela Neeraja Rajeshwari
 
  
-```md
+
 # RATE MY RESUME USING ML & NLP
 > **_Upload a resume. Match it against company requirements. Get an eligibility score with actionable insights._**
 
@@ -312,8 +312,8 @@ The resume is cleaned and processed to improve matching accuracy:
 ---
 
 ## System Architecture (Simple View)
-```
 
+```
 User (Browser)
 |
 |  Upload Resume + Select Companies
@@ -334,8 +334,7 @@ Results Page (Bar Graph + Eligibility Suggestions)
 |
 v
 MySQL (Stores user login info)
-
-````
+```
 
 ---
 
@@ -494,6 +493,5 @@ Example test cases:
 * Mucherla Sai Sri Lakshmi Chaitanya
 * Mancheela Neeraja Rajeshwari
 
-```
-```
+
 
